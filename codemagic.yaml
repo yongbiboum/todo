@@ -5,4 +5,4 @@ workflows:
         working_directory: android
         script: ./gradlew assembleRelease
     artifacts:
-      - app/build/outputs/**/**/*.apk
+      - app/build/outputs/todocode.apk
